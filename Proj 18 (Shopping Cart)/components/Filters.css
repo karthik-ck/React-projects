@@ -1,0 +1,53 @@
+.filters{
+    background-color: black;
+    color:white;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 10px;
+    height: 88vh;
+}
+
+.filters>span{
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    color:antiquewhite;
+    text-align: center;
+}
+
+@media(max-width:770px){
+    .filters{
+        width:40%;
+        margin:5px;
+        padding:10px;
+    }
+    .filters>span{
+        font-size: 10px;
+    }
+    .title{
+        font-size: 18px !important;
+    }
+
+}
+
+@media(max-width:360px){
+    .filters{
+        width:50%;
+        margin:5px;
+        padding:5px;
+        height:50vh;
+    }
+    .filters>span{
+        font-size: 12px;
+    }
+    .title{
+        font-size: 18px !important;
+    }
+
+}
