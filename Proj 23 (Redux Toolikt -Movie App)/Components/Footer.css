@@ -1,0 +1,9 @@
+.footer{
+    background:rgb(68, 3, 3) ;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
