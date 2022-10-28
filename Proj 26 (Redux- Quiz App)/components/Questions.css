@@ -1,0 +1,27 @@
+.questions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 5px;
+}
+.score{
+    margin-top: 25px;
+}
+.block{
+    margin-top: 10px;
+    border:2px solid black;
+    padding:30px;
+    border-radius: 30px;
+    background-color: rgb(53, 47, 47);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
