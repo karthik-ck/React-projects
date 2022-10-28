@@ -1,0 +1,27 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: .5em;
+}
+
+.line{
+    width:30%;
+}
+hr{
+    margin-bottom: .5em;
+    
+}
+
+.copyright p{
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.fooIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

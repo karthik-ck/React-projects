@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 50px;
+    padding: .5em 0;
+}
+
+header{
+    background-color: orangered;
+}
+
+.container{
+    width:95%;
+    margin: 0 auto;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listItem{
+    margin-left: 2em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.icon{
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 1em;
+    margin-left: 1.5em;
+}
+
