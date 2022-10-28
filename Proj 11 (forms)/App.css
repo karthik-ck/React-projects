@@ -1,0 +1,31 @@
+body{
+    background-color: blue;
+}
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px solid gray;
+    background-color: black;
+    color:white;
+    min-height: 70vh;
+    width: 450px;
+}
+
+.formData{
+    padding: 10px;
+    flex:1
+}
+
+input{
+    border-radius: 20px;
+    border: none;
+    width:70%;
+    margin: 3px;
+}
+
