@@ -1,0 +1,55 @@
+.App{
+    background-color: rgb(65, 63, 63);
+    color:white;
+}
+.App-Header{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    flex-direction: column;
+}
+input{
+    width:350px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    padding:10px;
+    background-color: antiquewhite;
+}
+.button{
+    padding:13px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-left: 20px;
+    background-color: rgb(9, 119, 119);
+    color:white;
+}
+.list-btn{
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: rgb(235, 52, 52);
+    color: white;
+    margin-left: 10px;
+}
+.allTodos{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.singleTodo{
+    background-color: rgb(83, 235, 235);
+    width:450px;
+    border-radius: 20px;
+    padding:10px 20px;
+    margin: 10px 0;
+    align-items: center;
+    color: black;
+    display: flex;
+}
+.todoText{
+    flex: 1;
+    text-align: start;
+    font-size: 20px;
+    font-weight: 500;
+}
