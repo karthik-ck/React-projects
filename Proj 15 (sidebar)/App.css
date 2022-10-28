@@ -1,0 +1,66 @@
+.App{
+    display: flex;
+    font-family: sans-serif;
+    color: white;
+    background:linear-gradient(skyblue,orange)
+}
+
+.bodycontainer{
+  flex:1;
+}
+
+.sidebarcontainer{
+    height: 100vh;
+    position: sticky;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar{
+    display: flex;
+    width: 15em;
+    height: 90%;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    border: 1px solid black;
+    padding:15px;
+    margin:10px;
+    background-color: rgb(10, 61, 27);
+    box-shadow: rgb(197, 33, 33);
+}
+
+.menu_icon{
+    display: flex;
+    align-self: flex-end;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.profile{
+    display: flex;
+    width: 4rem;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    align-self: center;
+}
+
+.profile>img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.groups{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
