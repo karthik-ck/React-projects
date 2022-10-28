@@ -1,0 +1,46 @@
+.home{
+    margin: 10px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px 50px;
+}
+
+.user{
+    background-color:rgb(180, 177, 177);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.icon{
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+}
+.button{
+    background-color: rgb(6, 6, 99);
+    color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+}
+.icon-color{
+    color: black;
+}
+
+.no-user{
+    font-size: 20px;
+    font-weight: 400;
+}
